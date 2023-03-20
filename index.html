@@ -9,7 +9,7 @@
       rel="stylesheet"
       href="./asssets/fonts/fontawesome-free-6.1.2-web/css/all.css"
     />
-    <title>Document</title>
+    <title>Music Nhà Làm</title>
   </head>
 
   <body>
@@ -107,7 +107,7 @@
             name: "Nguời Như Anh",
             singer: "Mai Tiến Dũng",
             path: "./asssets/music/song1.mp3",
-            image: "./asssets/img/img7.png"
+            image: "./asssets/img/maitiendung.jpg"
           },
 
           {
@@ -115,42 +115,56 @@
             singer: "Trung Quân Idol",
             path: "./asssets/music/song2.mp3",
 
-            image: "./asssets/img/img7.png"
+            image: "./asssets/img/trungquan.jpg"
           },
 
           {
             name: "Ngủ Một Mình",
             singer: "HIEUTHUHAI ft Negav ft Kewtii",
             path: "./asssets/music/song3.mp3",
-            image: "./asssets/img/img7.png"
+            image: "./asssets/img/hieut2.jpg"
           },
 
           {
-            name: "Thôi Em Đừng Đi",
-            singer: "MCK",
+            name: "Mặt Mộc",
+            singer: "Phạm Nguyên Ngọc ft VAnh",
             path: "./asssets/music/song4.mp3",
-            image: "./asssets/img/img7.png"
+            image: "./asssets/img/matmoc.jpg"
           },
 
           {
-            name: "Viết Cho Ngày Mùa Đông",
-            singer: "14Casper ft BonNguyen",
+            name: "Năm Ấy",
+            singer: "Đức Phúc",
             path: "./asssets/music/song5.mp3",
-            image: "./asssets/img/img7.png"
+            image: "./asssets/img/ducphuc.jpg"
           },
 
           {
             name: "Em Đồng Ý (I Do)",
             singer: "Đức Phúc ft 911",
             path: "./asssets/music/song6.mp3",
-            image: "./asssets/img/img7.png"
+            image: "./asssets/img/ducphuc.jpg"
           },
 
           {
-            name: "PurpleLightning",
-            singer: "MONO",
+            name: "Trong Trí Nhớ Của Anh (Piano)",
+            singer: "Noo Phước Thịnh",
             path: "./asssets/music/song7.mp3",
-            image: "./asssets/img/img7.png"
+            image: "./asssets/img/noo.jpg"
+          },
+
+          {
+            name: "3107-3",
+            singer: "Wn Duong ft Nau Titie",
+            path: "./asssets/music/song8.mp3",
+            image: "./asssets/img/3107.jpg"
+          },
+
+          {
+            name: "Ông ngoại tuổi 30 (Piano)",
+            singer: "Ann Coong",
+            path: "./asssets/music/song9.mp3",
+            image: "./asssets/img/trinhthangbinh.jpg"
           }
         ],
         setConfig: function (key, value) {
@@ -165,7 +179,7 @@
                     }" data-index = ${index}>
                         <div class="thumb" style="background-image: url('${
                           song.image
-                        }')">
+                        }')","background-size: contain"  >
                             </div>
                               <div class="body">
                                 <h3 class="title">${song.name}</h3>
